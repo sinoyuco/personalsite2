@@ -1,6 +1,6 @@
 .info-bar{
     display: flex;
-    height: 15%;
+    height: 18%;
     justify-content: space-evenly;
     background: #3E424B;
     border-left: 1px solid gray;
@@ -53,23 +53,23 @@
 
 
 .fa-info-circle{
-    font-size: 40px;
+    font-size: 45px;
     color: lightgray;
     /* margin: 10px 0; */
 }
 .fa-code{
-    font-size: 40px;
+    font-size: 45px;
     color: lightgray;
     /* margin: 10px 0; */
 }
 
 .fa-download{
-    font-size: 40px;
+    font-size: 45px;
     color: lightgray;
     /* margin: 10px 0; */
 }
 
 .info-show{
-    height: 85%;
+    height: 82%;
     background: greenyellow;
 }

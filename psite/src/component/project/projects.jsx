@@ -17,16 +17,29 @@ const Projects = () => {
         <div className="projects-main">
             <div className="projects-bar">
                 <div onClick={() => setName('HipTrip')} className="projects-hiptrip-button">
-                    <h1>HipTrip</h1>
+                    <div className="logo-circle-parent">
+                        <div className="project-logo-container-circle">
+                            <img className="hiptrip-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/logo/green_icon.png" alt=""/>
+                        </div>
+                    </div>
                 </div>
-
-                <div onClick={() => setName('OwnProps')} className="projects-ownprops-button">
-                    <h1>OwnProps</h1>
-                </div>
-
+                <div className="info-bar-separator"></div>
                 <div onClick={() => setName('StarJouster')} className="projects-starjouster-button">
-                    <h1>StarJouster</h1>
+                    <div className="logo-circle-parent">
+                        <div className="project-logo-container-circle">
+                            <img className="starjouster-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/luke_left_frozen.png"/>
+                        </div>
+                    </div>
                 </div>
+                <div className="info-bar-separator"></div>
+                <div onClick={() => setName('OwnProps')} className="projects-ownprops-button">
+                    <div className="logo-circle-parent">
+                        <div className="project-logo-container-circle-ownprops">
+                            <img className="ownprops-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/opdmlogo.png"/>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div className="projects-show">
                 {projects[name]}

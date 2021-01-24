@@ -1,7 +1,99 @@
+.projects-main{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
 .projects-bar{
     display: flex;
     justify-content: space-evenly;
+    background: #3E424B;
+    height: 18%;
+    border-left: 1px solid gray;
+    border-radius: 0 20px 0 0;
+}
+
+.projects-hiptrip-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.projects-hiptrip-button:hover{
+    cursor: pointer;
+}
+
+.projects-ownprops-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.projects-ownprops-button:hover{
+    cursor: pointer;
+}
+
+.projects-starjouster-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.projects-starjouster-button:hover{
+    cursor: pointer;
+}
+
+.projects-show{
+    height: 82%;
+    background: greenyellow;
+}
+
+.hiptrip-logo{
     width: 100%;
-    background: slateblue;
-    height: 50%;
+    height: auto;
+}
+
+.ownprops-logo{
+    width: 100%;
+    height: auto;
+}
+
+.starjouster-logo{
+    width: 100%;
+    height: auto;
+}
+
+.project-logo-container-circle{
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.project-logo-container-circle-ownprops{
+    width: 50px;
+    height: 50px;
+    background: #073049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.logo-circle-parent{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
 }

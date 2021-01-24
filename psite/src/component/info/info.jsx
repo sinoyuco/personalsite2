@@ -15,15 +15,15 @@ const Info = () => {
         <div className="info-main">
             <div className="info-bar">
                 <div onClick={() => setSection('General')} className="info-general-button">
-                    <h1>General</h1>
+                    <i class="fas fa-info-circle"></i>
                 </div>
-
+                <div className="info-bar-separator"></div>
                 <div onClick={() => setSection('Skills')} className="info-skills-button">
-                    <h1>Skills</h1>
+                    <i class="fas fa-code"></i>
                 </div>
-
+                <div className="info-bar-separator"></div>
                 <div className="info-resume-button">
-                    <h1>Resume</h1>
+                    <i class="fas fa-download"></i>
                 </div>
 
             </div>

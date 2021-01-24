@@ -1,5 +1,75 @@
 .info-bar{
     display: flex;
+    height: 15%;
     justify-content: space-evenly;
-    background: tan;
+    background: #3E424B;
+    border-left: 1px solid gray;
+    border-radius: 0 20px 0 0;
+}
+
+.info-main{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+.info-general-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.info-general-button:hover{
+    cursor: pointer;
+}
+
+.info-skills-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.info-skills-button:hover{
+    cursor: pointer;
+}
+
+.info-resume-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.info-resume-button:hover{
+    cursor: pointer;
+}
+
+.info-bar-separator{
+    width: 2%;
+    background: lightgray;
+}
+
+
+
+.fa-info-circle{
+    font-size: 40px;
+    color: lightgray;
+    /* margin: 10px 0; */
+}
+.fa-code{
+    font-size: 40px;
+    color: lightgray;
+    /* margin: 10px 0; */
+}
+
+.fa-download{
+    font-size: 40px;
+    color: lightgray;
+    /* margin: 10px 0; */
+}
+
+.info-show{
+    height: 85%;
+    background: greenyellow;
 }

@@ -1,0 +1,7 @@
+.projects-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: slateblue;
+    height: 50%;
+}

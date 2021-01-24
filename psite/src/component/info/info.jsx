@@ -22,6 +22,10 @@ const Info = () => {
                     <h1>Skills</h1>
                 </div>
 
+                <div className="info-resume-button">
+                    <h1>Resume</h1>
+                </div>
+
             </div>
             <div className="info-show">
                 {sections[section]}

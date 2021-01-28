@@ -24,6 +24,11 @@
     cursor: pointer;
 }
 
+.projects-hiptrip-button:hover .logo-circle-parent{
+    background: lightgreen;
+    transition: 1s;
+}
+
 .projects-ownprops-button{
     display: flex;
     justify-content: center;
@@ -35,6 +40,11 @@
     cursor: pointer;
 }
 
+.projects-ownprops-button:hover .logo-circle-parent{
+    background: lightgreen;
+    transition: 0.6s;
+}
+
 .projects-starjouster-button{
     display: flex;
     justify-content: center;
@@ -44,6 +54,11 @@
 
 .projects-starjouster-button:hover{
     cursor: pointer;
+}
+
+.projects-starjouster-button:hover .logo-circle-parent{
+    background: lightgreen;
+    transition: 0.6s;
 }
 
 .projects-show{

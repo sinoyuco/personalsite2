@@ -73,3 +73,26 @@
     height: 82%;
     background: greenyellow;
 }
+
+
+.general-main{
+    padding: 10px 10px 10px 15px;
+}
+
+.general-pp-container{
+    margin-left: 10px;
+    float: right;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    background: #3E424B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.general-pp{
+    width: 250px;
+    height: auto;
+}

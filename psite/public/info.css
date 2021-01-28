@@ -126,6 +126,7 @@
 }
 
 .skills-child{
+    position: relative;
     width: 25%;
     height: 100%;
     display: flex;
@@ -137,4 +138,31 @@
 .skills-child-image{
     width: 50%;
     height: auto;
+    transition: all 0.2s ease-in-out;
 }
+
+.skills-child:hover .skills-child-image{
+    transform: scale(1.2);
+}
+
+.skills-child:hover .skills-child-dropdown{
+    display: block;
+}
+
+.skills-child-dropdown{
+    padding: 10px;
+    background: black;
+    display: none;
+    position: absolute;
+    right: 120px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.skills-child-dropdown p{
+    color: white;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+

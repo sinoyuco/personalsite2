@@ -10,7 +10,7 @@ const General = () => {
 
             <p> I am a software engineer with a passion for developing technical tools and applications to solve everyday problems and improve everyday processes. I cherish the opportunity to interact with new frameworks and libraries.</p>
 
-            <p>Through my time at App Academy, I've had the opportunity to build full stack applications with everyday uses utilizing mainly Javascript and Ruby along with other technologies and frameworks. I aspire to continue this journey and grow as a software engineer, learning new technologies and constructing new solutions along the way.</p>
+            <p>Through my time at App Academy, I've had the opportunity to build full stack applications with everyday uses utilizing mainly <strong> React, Redux, Rails, Node.js, MongoDB, Exress.js </strong> along with other technologies and frameworks. I aspire to continue this journey and grow as a software engineer, learning new technologies and constructing new solutions along the way.</p>
         </div>
     )
 };

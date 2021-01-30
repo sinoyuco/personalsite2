@@ -119,23 +119,35 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .project-dropdown{
     display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 105%;
+    background: #3E424B;
+    z-index: 1;
 }
 
 .project-gif{
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
-    background: red;
+    background: #92979a;
+}
+
+.project-main:hover .project-dropdown{
+    display: block;
 }
 
 .project-gif img{
-    width: 45%;
-    height: 80%;
+    width: 100%;
     height: auto;
-    border: 1px solid black;
 }
 
 .project-header{

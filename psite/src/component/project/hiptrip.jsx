@@ -5,11 +5,13 @@ const HipTrip = () => {
         <div className="project-main">
             
             
-
             <div className="project-gif">
-                
+                <a className="project-gif-link" href="https://aa-hiptrip.herokuapp.com/" target="_blank">
+                    <img src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/Kapture+2021-01-29+at+18.23.18.gif" alt=""/>
+                </a>
             </div>
             
+
             <div className="project-dropdown">
                 <div className="project-header">
                     <h2>HIPTRIP</h2>
@@ -17,9 +19,9 @@ const HipTrip = () => {
 
                 <div className="project-links">
                     
-                    <a href=""><h2>Live</h2></a>
+                    <a href="https://aa-hiptrip.herokuapp.com/" target="_blank"><h2>Live</h2></a>
                     <div className="project-links-separator"></div>
-                    <a href=""><h2>Github</h2></a>
+                    <a href="https://github.com/sinoyuco/HipTrip" target="_blank"><h2>Github</h2></a>
                     
                 </div>
             </div>

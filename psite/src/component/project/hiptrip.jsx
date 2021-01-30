@@ -14,7 +14,12 @@ const HipTrip = () => {
             <div className="project-dropdown-triangle"></div>
             <div className="project-dropdown">
                 <div className="project-header">
-                    <h2>HIPTRIP</h2>
+                    <h2 className="project-header-hiptrip">HipTrip</h2>
+                    <p>Used: <strong> PostgreSQL, <em className="em-rails">Rails</em>, <em className="em-react">React</em>, <em className="em-react">Redux</em></strong></p>
+                </div>
+
+                <div className="project-description">
+                    <p className="project-description-hiptrip">HipTrip is an online marketplace for camping experiences. Users can search for sports, book them or leave reviews.</p>
                 </div>
 
                 <div className="project-links">

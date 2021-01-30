@@ -11,7 +11,7 @@ const HipTrip = () => {
                 </a>
             </div>
             
-
+            <div className="project-dropdown-triangle"></div>
             <div className="project-dropdown">
                 <div className="project-header">
                     <h2>HIPTRIP</h2>

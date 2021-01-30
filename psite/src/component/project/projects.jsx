@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="projects-main">
             <div className="projects-bar">
                 <div onClick={() => setName('HipTrip')} className="projects-hiptrip-button">
-                    <div className="logo-circle-parent">
+                    <div className={name=="HipTrip" ? "logo-circle-parent-active" : "logo-circle-parent"}>
                         <div className="project-logo-container-circle">
                             <img className="hiptrip-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/logo/green_icon.png" alt=""/>
                         </div>
@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
                 <div className="info-bar-separator"></div>
                 <div onClick={() => setName('StarJouster')} className="projects-starjouster-button">
-                    <div className="logo-circle-parent">
+                    <div className={name == "StarJouster" ? "logo-circle-parent-active" : "logo-circle-parent"}>
                         <div className="project-logo-container-circle">
                             <img className="starjouster-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/luke_left_frozen.png"/>
                         </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
                 <div className="info-bar-separator"></div>
                 <div onClick={() => setName('OwnProps')} className="projects-ownprops-button">
-                    <div className="logo-circle-parent">
+                    <div className={name == "OwnProps" ? "logo-circle-parent-active" : "logo-circle-parent"}>
                         <div className="project-logo-container-circle-ownprops">
                             <img className="ownprops-logo" src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/opdmlogo.png"/>
                         </div>

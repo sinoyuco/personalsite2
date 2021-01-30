@@ -11,9 +11,15 @@ const StarJouster = () => {
             </div>
 
 
+            <div className="project-dropdown-triangle"></div>
             <div className="project-dropdown">
                 <div className="project-header">
-                    <h2>STARJOUSTER</h2>
+                    <h2 className="project-header-starjouster">STARJOUSTER</h2>
+                    <p>Used: <strong>Canvas, <em className="em-js">JavaScript</em></strong></p>
+                </div>
+
+                <div className="project-description">
+                    <p className="project-description-starjouster">Defeat sith lords in lightsaber joust battles and pick up their lightsabers. If you don't, they will respawn and you will soon be overwhelmed.</p>
                 </div>
 
                 <div className="project-links">

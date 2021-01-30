@@ -6,11 +6,12 @@ const OwnProps = () => {
 
             <div className="project-gif">
                 <a className="project-gif-link" href="https://aa-ownpropsdotmatch.herokuapp.com/" target="_blank">
-                    <img src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/OPM.gif" alt="" />
+                    <img src="https://hiptrip-aa-seed.s3.amazonaws.com/psite/OPM.gif" alt="gif and crap" />
                 </a>
             </div>
 
 
+            <div className="project-dropdown-triangle"></div>
             <div className="project-dropdown">
                 <div className="project-header">
                     <h2>OWNPROPS.MATCH</h2>

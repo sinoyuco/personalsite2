@@ -135,11 +135,10 @@
 
 .project-dropdown{
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    display: none;
     position: absolute;
     width: 200px;
-    height: 200px;
+    height: 300px;
     left: 103%;
     background: #3E424B;
     z-index: 3;
@@ -182,6 +181,9 @@
 
 .project-header{
     height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .project-header p{
@@ -189,9 +191,20 @@
 }
 
 .project-links{
-    height: 20%;
+    height: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.project-link{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    color: #a4a9b5;
+}
+
+.project-link:hover{
+    color: black;
 }
 
 .project-links-separator{
@@ -208,16 +221,17 @@
 
 
 .project-description{
-    height: 40%;
+    height: 45%;
 }
 
 .project-description-starjouster{
     font-family: 'Press Start 2P', cursive;
-    font-size: 9px;
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 .project-description-hiptrip{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .project-header-starjouster{
@@ -226,7 +240,18 @@
 }
 
 .project-header-hiptrip{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 19px;
+}
+
+.project-description-ownprops{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.project-header-ownprops{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 19px;
 }
 
@@ -237,4 +262,12 @@
 
 .em-react{
     color: teal;
+}
+
+.em-rails{
+    color: red;
+}
+
+.em-mongo{
+    color: green;
 }

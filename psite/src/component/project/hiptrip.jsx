@@ -24,9 +24,9 @@ const HipTrip = () => {
 
                 <div className="project-links">
                     
-                    <a href="https://aa-hiptrip.herokuapp.com/" target="_blank"><h2>Live</h2></a>
-                    <div className="project-links-separator"></div>
-                    <a href="https://github.com/sinoyuco/HipTrip" target="_blank"><h2>Github</h2></a>
+                    <a className="project-link" href="https://aa-hiptrip.herokuapp.com/" target="_blank"><p>Live</p></a>
+                    
+                    <a className="project-link" href="https://github.com/sinoyuco/HipTrip" target="_blank"><p>Repo</p></a>
                     
                 </div>
             </div>

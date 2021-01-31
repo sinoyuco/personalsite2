@@ -105,6 +105,18 @@
     padding: 10px 10px 10px 15px;
 }
 
+.general-main p, .general-main h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.general-main p{
+    font-size: 18px;
+}
+
+.general-main h2{
+    font-size: 24px;
+}
+
 .general-pp-container{
     margin-left: 10px;
     float: right;

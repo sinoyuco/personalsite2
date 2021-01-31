@@ -15,13 +15,15 @@ const MainScreen = () => {
         <div className="screen-main">
             <div className="screen-left">
                 <div onClick={() => setType('Info')} className="screen-left-info">
-                    <i className="fas fa-user-circle"></i>
+                    <i id={type=='Info' ? 'active-banner' : 'inactive-banner' } className="fas fa-user-circle"></i>
+                    <div className="main-button-dropdown"><p>Info</p></div>
                 </div>
 
                 <div className="screen-left-separator"></div>
                 
                 <div onClick={() => setType('Projects')} className="screen-left-projects">
-                    <i class="fas fa-book"></i>
+                    <i id={type == 'Projects' ? 'active-banner' : 'inactive-banner'} class="fas fa-book"></i>
+                    <div className="main-button-dropdown"><p>Projects</p></div>
                 </div>
             </div>
             <div className="screen-right">

@@ -30,6 +30,7 @@ body{
 
 .screen-left-info{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 45%;
@@ -46,6 +47,7 @@ body{
 
 .screen-left-projects{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 45%;
@@ -82,3 +84,22 @@ body{
     color: lightgrey
 }
 
+.main-button-dropdown{
+    padding: 3px;
+    display: none;
+    position: absolute;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    bottom: 20px;
+}
+
+.main-button-dropdown p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.screen-left-info:hover .main-button-dropdown, .screen-left-projects:hover .main-button-dropdown{
+    display: block;
+}

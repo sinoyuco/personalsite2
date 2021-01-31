@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import General from './general';
 import Skills from './skills';
+import Resume from './resume';
 
 const Info = () => {
 
@@ -8,7 +9,8 @@ const Info = () => {
 
     const sections = {
         'General': <General />,
-        'Skills': <Skills />
+        'Skills': <Skills />,
+        'Resume': <Resume />
     };
 
     return (
@@ -25,7 +27,7 @@ const Info = () => {
                 </div>
                 <div className="info-bar-separator"></div>
                 <div className="info-resume-button">
-                    <i className="fas fa-download"></i>
+                    <i id={section == 'Resume' ? 'active-banner' : 'inactive-banner'} className="fas fa-download"></i>
                     <div className="info-button-dropdown"><p>Resume</p></div>
                 </div>
 

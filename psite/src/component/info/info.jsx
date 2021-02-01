@@ -26,7 +26,7 @@ const Info = () => {
                     <div className="info-button-dropdown"><p>Skills</p></div>
                 </div>
                 <div className="info-bar-separator"></div>
-                <div className="info-resume-button">
+                <div onClick={() => setSection('Resume')} className="info-resume-button">
                     <i id={section == 'Resume' ? 'active-banner' : 'inactive-banner'} className="fas fa-download"></i>
                     <div className="info-button-dropdown"><p>Resume</p></div>
                 </div>
